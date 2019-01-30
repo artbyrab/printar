@@ -17,7 +17,7 @@ use Rabus\Printar\PrintarInterface;
 /**
  * Printar
  * 
- * All Printer models should implement this Printar Interface
+ * The default Printer model.
  *
  * @author RABUS
  */

@@ -17,6 +17,8 @@ use Rabus\Printar\PrintarInterface;
 /**
  * PrinterLime
  * 
+ * Like the default Printar, but with more lime!
+ * 
  * An example for you to extend Printar with your own printar!
  *
  * @author RABUS

@@ -53,7 +53,7 @@ Woah you can extend Printar? Of course you can and what is more it's incredibly 
 To extend Printar:
 
 * Read the extending guide:
-    * [Extending Guide](docs/extending.md)
+    * [Extending Guide](documents/extending.md)
 
 
 

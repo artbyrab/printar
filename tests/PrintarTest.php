@@ -4,7 +4,7 @@ use PHPUnit\Framework\TestCase;
 /**
 *  Printar Test
 *
-*  @author yourname
+*  @author RABUS
 */
 class PrintarTest extends TestCase
 {
