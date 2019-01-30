@@ -1,6 +1,6 @@
 # Printar a PHP print_r output formatter
 
-* http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/
+![Image](files/graphics/bitmap-logo-large.png?raw=true)
 
 Print your objects and arrays with ease with Printar, a print_r output formatter.
 
