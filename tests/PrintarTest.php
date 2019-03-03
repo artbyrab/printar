@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 use PHPUnit\Framework\TestCase;
 use Rabus\Printar\Printar;
@@ -9,11 +9,11 @@ use Rabus\Printar\Printar;
 * To run this test class only:
 *  - Navigate to: ~Rabus/printar/
 *  - Type: vendor/bin/phpunit --filter PrintarTest tests/PrintarTest.php
-* 
+*
 * To run a single test class in this model:
 *  - Navigate to: ~Rabus/printar/
 *  - Type: vendor/bin/phpunit --filter testRender PrintarTest tests/PrintarTest.php
-* 
+*
 * To run all tests:
 *  - Navigate to: ~Rabus/printar/
 *  - Type: $ vendor/bin/phpunit
@@ -22,9 +22,9 @@ use Rabus\Printar\Printar;
 */
 class PrintarTest extends TestCase
 {
-	/**
+    /**
      * Test the render function.
-     * 
+     *
      * We will use PHP's output buffer to capture the output of Printar.
      */
     public function testRender()

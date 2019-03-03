@@ -1,6 +1,16 @@
 <?php
 
-// @TODO edit the namespace
+/**
+ * Printar a print_r output formatter
+ *
+ * @category Package
+ * @package Printar
+ * @author  RABUS <rabus@art-by-rab.com>
+ * @license For copyright and license please see LICENSE and README docs contained in
+ * this package.
+ * @link    @TODO add in link
+ */
+
 namespace Rabus\Printar;
 
 use Rabus\Printar\PrintarInterface;
@@ -9,7 +19,7 @@ use Rabus\Printar\PrintarInterface;
  * Extend Template
  *
  * Your description
- *
+ * 
  * @author YourName <yourname@email.com>
  */
 class ExtendTemplate implements PrintarInterface
