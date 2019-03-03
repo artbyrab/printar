@@ -1,12 +1,12 @@
-<?php 
+<?php
 
 /**
  * Printar a print_r output formatter
- * 
- * @package   Printar
- * @author    RABUS <rabus@art-by-rab.com>
- * @link      @TODO add in link
- * For copyright and license please see LICENSE and README docs contained in 
+ *
+ * @package Printar
+ * @author  RABUS <rabus@art-by-rab.com>
+ * @link    @TODO add in link
+ * For copyright and license please see LICENSE and README docs contained in
  * this package.
  */
 
@@ -16,15 +16,16 @@ use Rabus\Printar\PrintarInterface;
 
 /**
  * Printar
- * 
+ *
  * The default Printer model.
  *
- * @author RABUS
+ * @author RABUS <rabus@art-by-rab.com>
  */
-class Printar implements PrintarInterface {
+class Printar implements PrintarInterface
+{
 
     /**
-     * {@inheritDoc}
+     * @inheritDoc
      */
     public static function render($variable)
     {

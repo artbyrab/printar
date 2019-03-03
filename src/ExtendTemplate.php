@@ -1,18 +1,19 @@
-<?php 
+<?php
 
-// @TODO edit the namespace 
+// @TODO edit the namespace
 namespace Rabus\Printar;
 
 use Rabus\Printar\PrintarInterface;
 
 /**
  * Extend Template
- * 
+ *
  * Your description
  *
- * @author YourName
+ * @author YourName <yourname@email.com>
  */
-class ExtendTemplate implements PrintarInterface {
+class ExtendTemplate implements PrintarInterface
+{
 
     /**
      * {@inheritDoc}

@@ -1,12 +1,12 @@
-<?php 
+<?php
 
 /**
  * Printar a print_r output formatter
- * 
- * @package   Printar
- * @author    RABUS <rabus@art-by-rab.com>
- * @link      @TODO add in link
- * For copyright and license please see LICENSE and README docs contained in 
+ *
+ * @package Printar
+ * @author  RABUS <rabus@art-by-rab.com>
+ * @link    @TODO add in link
+ * For copyright and license please see LICENSE and README docs contained in
  * this package.
  */
 
@@ -16,14 +16,15 @@ use Rabus\Printar\PrintarInterface;
 
 /**
  * PrinterLime
- * 
+ *
  * Like the default Printar, but with more lime!
- * 
+ *
  * An example for you to extend Printar with your own printar!
  *
- * @author RABUS
+ * @author RABUS <rabus@art-by-rab.com>
  */
-class PrintarLime implements PrintarInterface {
+class PrintarLime implements PrintarInterface
+{
 
     /**
      * {@inheritDoc}
