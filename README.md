@@ -50,10 +50,12 @@ That is it!
 
 Woah you can extend Printar? Of course you can and what is more it's incredibly simple!
 
-To extend Printar:
+# Resources
 
-* Read the extending guide:
-    * [Extending Guide](documents/extending.md)
+* [Extending Guide](documents/extending.md)
+* [Running Tests](documents/running-tests.md)
+* [Code Checks](documents/code-checks.md)
+
 
 
 
