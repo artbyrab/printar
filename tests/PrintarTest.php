@@ -7,15 +7,15 @@ use Rab\Printar\Printar;
 *  Printar Test
 *
 * To run this test class only:
-*  - Navigate to: ~Rab/printar/
+*  - Navigate to: ~rab/printar/
 *  - Type: vendor/bin/phpunit --filter PrintarTest tests/PrintarTest.php
 *
 * To run a single test class in this model:
-*  - Navigate to: ~Rab/printar/
+*  - Navigate to: ~rab/printar/
 *  - Type: vendor/bin/phpunit --filter testRender PrintarTest tests/PrintarTest.php
 *
 * To run all tests:
-*  - Navigate to: ~Rab/printar/
+*  - Navigate to: ~rab/printar/
 *  - Type: $ vendor/bin/phpunit
 *
 *  @author RAB
