@@ -19,7 +19,7 @@ use Rab\Printar\PrintarInterface;
  * Extend Template
  *
  * Your description
- * 
+ *
  * @author YourName <yourname@email.com>
  */
 class ExtendTemplate implements PrintarInterface
