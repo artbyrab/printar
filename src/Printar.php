@@ -4,7 +4,7 @@
  * Printar a print_r output formatter
  *
  * @package Printar
- * @author  RAB <rab@art-by-rab.com>
+ * @author  RAB <contact@art-by-rab.com>
  * @link    @TODO add in link
  * For copyright and license please see LICENSE and README docs contained in
  * this package.
@@ -19,7 +19,7 @@ use Rab\Printar\PrintarInterface;
  *
  * The default Printer model.
  *
- * @author RAB <rab@art-by-rab.com>
+ * @author RAB <contact@art-by-rab.com>
  */
 class Printar implements PrintarInterface
 {

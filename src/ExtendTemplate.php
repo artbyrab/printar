@@ -5,7 +5,7 @@
  *
  * @category Package
  * @package Printar
- * @author  RAB <rab@art-by-rab.com>
+ * @author  RAB <contact@art-by-rab.com>
  * @license For copyright and license please see LICENSE and README docs contained in
  * this package.
  * @link    @TODO add in link

@@ -4,7 +4,7 @@
  * Printar a print_r output formatter
  *
  * @package Printar
- * @author  RAB <rab@art-by-rab.com>
+ * @author  RAB <contact@art-by-rab.com>
  * @link    @TODO add in link
  * For copyright and license please see LICENSE and README docs contained in
  * this package.
@@ -18,7 +18,7 @@ namespace Rab\Printar;
  * The base interface for any Printar object. If you wish to create your own
  * Printar model, then you should extend this interface.
  *
- * @author RAB <rab@art-by-rab.com>
+ * @author RAB <contact@art-by-rab.com>
  */
 interface PrintarInterface
 {
