@@ -1,12 +1,12 @@
 {
-    "name": "Rabus/Printar",
+    "name": "Rab/Printar",
     "description": "Print your objects and arrays with ease with Printar, a print_r output formatter",
     "keywords": ["printar", "print_r", "php", "debugging", "pre", "composer", "package"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Rabus",
-            "email": "rabus@art-by-rab.com"
+            "name": "Rab",
+            "email": "rab@art-by-rab.com"
         }
     ],
     "type": "library",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Rabus\\Printar\\": "src/"
+            "Rab\\Printar\\": "src/"
         }
     }
 }

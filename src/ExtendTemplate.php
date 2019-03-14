@@ -5,15 +5,15 @@
  *
  * @category Package
  * @package Printar
- * @author  RABUS <rabus@art-by-rab.com>
+ * @author  RAB <rab@art-by-rab.com>
  * @license For copyright and license please see LICENSE and README docs contained in
  * this package.
  * @link    @TODO add in link
  */
 
-namespace Rabus\Printar;
+namespace Rab\Printar;
 
-use Rabus\Printar\PrintarInterface;
+use Rab\Printar\PrintarInterface;
 
 /**
  * Extend Template

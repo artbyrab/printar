@@ -1,8 +1,8 @@
 <?php
 require ('../vendor/autoload.php');
 
-use Rabus\Printar\Printar;
-use Rabus\Printar\PrintarLime;
+use Rab\Printar\Printar;
+use Rab\Printar\PrintarLime;
 ?>
 
 <!doctype html>
@@ -13,7 +13,7 @@ use Rabus\Printar\PrintarLime;
 
     <title>Printar</title>
     <meta name="description" content="Printar">
-    <meta name="author" content="RABUS">
+    <meta name="author" content="RAB">
 
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -43,15 +43,11 @@ use Rabus\Printar\PrintarLime;
         <div class="row">
             
             <div class="col-xs-12">
-                <pre><code>$array = array(
-    'element 1',
-    'element 2',
-    'element 3',
-);</code></pre>
-                <h2>Examples</h2>
+                <h2>Include Printar</h2>
                 <p>Include Printar in the file you are printing out from</p>
-                <pre><code>use Rabus\Printar\Printar;</code></pre>
-                <p>Build your array</p>
+                <pre><code>use Rab\Printar\Printar;</code></pre>
+
+                <p>Let's use an array as an example bit of data we want to print_r</p>
                 <pre><code>$array = array(
     'element 1',
     'element 2',
@@ -59,7 +55,7 @@ use Rabus\Printar\PrintarLime;
 );</code></pre>
                 <p>Pass it to Printar</p>
                 <pre><code>Printar::render($array);</code></pre>
-
+                <p>Or you can skip including Printar and just use a \</p>
                 <h3>Results(Printar default)</h3>
                 <?php 
                 $array = array(
@@ -71,7 +67,7 @@ use Rabus\Printar\PrintarLime;
                 ?>
                 <br>
                 <p>Pass it to PrintarLime</p>
-                <pre><code>use Rabus\Printar\Printar;
+                <pre><code>use Rab\Printar\Printar;
 
 $array = array(
     'element 1',

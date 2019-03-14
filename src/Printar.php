@@ -4,22 +4,22 @@
  * Printar a print_r output formatter
  *
  * @package Printar
- * @author  RABUS <rabus@art-by-rab.com>
+ * @author  RAB <rab@art-by-rab.com>
  * @link    @TODO add in link
  * For copyright and license please see LICENSE and README docs contained in
  * this package.
  */
 
-namespace Rabus\Printar;
+namespace Rab\Printar;
 
-use Rabus\Printar\PrintarInterface;
+use Rab\Printar\PrintarInterface;
 
 /**
  * Printar
  *
  * The default Printer model.
  *
- * @author RABUS <rabus@art-by-rab.com>
+ * @author RAB <rab@art-by-rab.com>
  */
 class Printar implements PrintarInterface
 {
