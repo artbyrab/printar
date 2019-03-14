@@ -8,7 +8,7 @@ What is worse than debugging your code? Yep, you guessed it typing out pre and p
 
 ## Requirements
 
-* PHP
+* PHP 5.5 +
 
 ## Features
 
