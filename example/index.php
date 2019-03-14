@@ -12,7 +12,7 @@ use Rabus\Printar\PrintarLime;
     <meta charset="utf-8">
 
     <title>Printar</title>
-    <meta name="description" content="Sinvoice - Sin Free Invoicing">
+    <meta name="description" content="Printar">
     <meta name="author" content="RABUS">
 
     <!--[if lt IE 9]>
@@ -42,7 +42,7 @@ use Rabus\Printar\PrintarLime;
         </div>
         <div class="row">
             
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="col-xs-12">
                 <pre><code>$array = array(
     'element 1',
     'element 2',

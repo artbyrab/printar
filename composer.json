@@ -12,14 +12,11 @@
     "type": "library",
     "require-dev": {
         "phpunit/phpunit": "6.*",
-        "friendsofphp/php-cs-fixer": "*",
+        "friendsofphp/php-cs-fixer": "*"
     },
     "autoload": {
         "psr-4": {
             "Rabus\\Printar\\": "src/"
         }
-    },
-    "scripts": {
-        "php-cs-fixer": "php-cs-fixer --rules=@PSR1, @PSR2"
     }
 }
