@@ -22,12 +22,12 @@ What is worse than debugging your code? Yep, you guessed it typing out pre and p
 The reccomended way to install is via Composer.
 Either install in the project via terminal
 ```
-$ composer require rab/printar:~1.0
+$ composer require artbyrab/printar:~1.0
 ```
 
 or add it to your composer.json file
 ```
-"rab/printar": "~1.0"
+"artbyrab/printar": "~1.0"
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ Using Printar is super simple.
 
 ### 1) Include Printar into your page:
 ```
-use Rab\Printar\Printar;
+use artbyrab\printar\Printar;
 ```
 
 ### 2)Render your variable:

@@ -1,24 +1,24 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-use Rab\Printar\Printar;
+use artbyrab\printar\Printar;
 
 /**
 *  Printar Test
 *
 * To run this test class only:
-*  - Navigate to: ~rab/printar/
+*  - Navigate to: ~artbyrab/printar/
 *  - Type: vendor/bin/phpunit --filter PrintarTest tests/PrintarTest.php
 *
 * To run a single test class in this model:
-*  - Navigate to: ~rab/printar/
+*  - Navigate to: ~artbyrab/printar/
 *  - Type: vendor/bin/phpunit --filter testRender PrintarTest tests/PrintarTest.php
 *
 * To run all tests:
-*  - Navigate to: ~rab/printar/
+*  - Navigate to: ~artbyrab/printar/
 *  - Type: $ vendor/bin/phpunit
 *
-*  @author RAB
+*  @author artbyrab
 */
 class PrintarTest extends TestCase
 {

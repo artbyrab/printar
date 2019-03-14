@@ -4,15 +4,15 @@
  * Printar a print_r output formatter
  *
  * @package Printar
- * @author  RAB <contact@art-by-rab.com>
+ * @author  artbyrab <contact@art-by-rab.com>
  * @link    @TODO add in link
  * For copyright and license please see LICENSE and README docs contained in
  * this package.
  */
 
-namespace Rab\Printar;
+namespace artbyrab\printar;
 
-use Rab\Printar\PrintarInterface;
+use artbyrab\printar\PrintarInterface;
 
 /**
  * PrinterLime
@@ -21,7 +21,7 @@ use Rab\Printar\PrintarInterface;
  *
  * An example for you to extend Printar with your own printar!
  *
- * @author RAB <contact@art-by-rab.com>
+ * @author artbyrab <contact@art-by-rab.com>
  */
 class PrintarLime implements PrintarInterface
 {

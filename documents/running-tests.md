@@ -2,7 +2,7 @@
 
 To run the tests navigate to the package root folder:
 ```
-$ cd Rab/Printar
+$ cd artbyrab/Printar
 ```
 
 Run PHP Unit on the tests folder:

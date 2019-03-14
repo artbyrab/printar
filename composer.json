@@ -1,22 +1,25 @@
 {
-    "name": "Rab/Printar",
+    "name": "artbyrab/printar",
     "description": "Print your objects and arrays with ease with Printar, a print_r output formatter",
     "keywords": ["printar", "print_r", "php", "debugging", "pre", "composer", "package"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Rab",
+            "name": "artbyrab",
             "email": "contact@art-by-rab.com"
         }
     ],
     "type": "library",
+    "require": {
+        "php": ">=5.5"
+    },
     "require-dev": {
         "phpunit/phpunit": "6.*",
         "friendsofphp/php-cs-fixer": "*"
     },
     "autoload": {
         "psr-4": {
-            "Rab\\Printar\\": "src/"
+            "artbyrab\\printar\\": "src/"
         }
     }
 }

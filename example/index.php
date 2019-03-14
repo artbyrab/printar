@@ -1,8 +1,8 @@
 <?php
 require ('../vendor/autoload.php');
 
-use Rab\Printar\Printar;
-use Rab\Printar\PrintarLime;
+use artbyrab\printar\Printar;
+use artbyrab\printar\PrintarLime;
 ?>
 
 <!doctype html>
@@ -13,7 +13,7 @@ use Rab\Printar\PrintarLime;
 
     <title>Printar</title>
     <meta name="description" content="Printar">
-    <meta name="author" content="RAB">
+    <meta name="author" content="artbyrab">
 
     <!--[if lt IE 9]>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -45,7 +45,7 @@ use Rab\Printar\PrintarLime;
             <div class="col-xs-12">
                 <h2>Include Printar</h2>
                 <p>Include Printar in the file you are printing out from</p>
-                <pre><code>use Rab\Printar\Printar;</code></pre>
+                <pre><code>use artbyrab\printar\Printar;</code></pre>
 
                 <p>Let's use an array as an example bit of data we want to print_r</p>
                 <pre><code>$array = array(
@@ -55,7 +55,6 @@ use Rab\Printar\PrintarLime;
 );</code></pre>
                 <p>Pass it to Printar</p>
                 <pre><code>Printar::render($array);</code></pre>
-                <p>Or you can skip including Printar and just use a \</p>
                 <h3>Results(Printar default)</h3>
                 <?php 
                 $array = array(
@@ -66,8 +65,10 @@ use Rab\Printar\PrintarLime;
                 Printar::render($array);
                 ?>
                 <br>
+                <h2>Extending Printar</h2>
+                <p>Extending Printar is easy, the package includes an extended version called Printar Lime.</p>
                 <p>Pass it to PrintarLime</p>
-                <pre><code>use Rab\Printar\Printar;
+                <pre><code>use artbyrab\printar\PrintarLime;
 
 $array = array(
     'element 1',
